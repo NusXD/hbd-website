@@ -23,6 +23,9 @@ confetti()
 
 else if(clickCount===2){
 
+document.getElementById("msg").style.display="none"
+document.getElementById("photo").style.display="none"
+
 document.getElementById("tiktok").style.display="block"
 
 }
@@ -45,5 +48,6 @@ document.body.appendChild(c)
 setTimeout(()=>c.remove(),6000)
 
 }
+
 
 }
